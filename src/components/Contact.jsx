@@ -9,12 +9,14 @@ export default class Contact extends Component {
         return (
             <div>
                 <h2>Contact</h2>
+                <a style={{color:"black"}} href="https://www.linkedin.com/in/williamdavidclifford" >https://www.linkedin.com/in/williamdavidclifford</a><Paragraph style={{display:"inline"}} copyable={{ text: "https://www.linkedin.com/in/williamdavidclifford" }}></Paragraph>                
                 <br/>
-                <Paragraph copyable>https://www.linkedin.com/in/williamdavidclifford</Paragraph>
                 <br/>
-                <Paragraph copyable>https://github.com/WClifford1</Paragraph>
+                <a style={{color:"black"}} href="https://github.com/WClifford1" >https://github.com/WClifford1</a><Paragraph style={{display:"inline"}} copyable={{ text: "https://github.com/WClifford1" }}></Paragraph>
                 <br/>
-                <Paragraph copyable>williamdavidclifford@gmail.com</Paragraph>
+                <br/>
+                <a style={{color:"black"}} href="mailto:williamdavidclifford@gmail.com" >williamdavidcliford@gmail.com</a><Paragraph style={{display:"inline"}} copyable={{ text: "williamdavidclifford@gmail.com" }}></Paragraph>
+                <br/>
                 <br/>
             </div>
         )
