@@ -9,7 +9,7 @@ import 'antd/dist/antd.css';
 function App() {
     return (
         <React.Fragment>
-            <h1 style={{textAlign:"center"}}>William Clifford | Junior Developer</h1>
+            <h1 style={{paddingLeft: "1%", paddingRight: "1%"}}>William Clifford | Junior Developer</h1>
             <Aboutme />
             <Portfolio />
             <TechStack />
